@@ -48,4 +48,13 @@ public class Buku {
     public Buku() {
         System.out.println("Object Buku telah diciptakan, constructor berjalan");
     }
+
+    public void naikkanHarga(){
+        System.out.println("ini method untuk naikkan harga");
+    }
+
+    public void naikkanHarga(double persentaseNaik){
+        System.out.println("ini method untuk menghitung kenaikkan harga");
+    }
+    
 }

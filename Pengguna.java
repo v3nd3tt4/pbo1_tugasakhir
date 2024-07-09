@@ -44,4 +44,18 @@ public class Pengguna{
         System.out.println("Object telah diciptakan, constructor berjalan");
     }
 
+    public void hapus(){
+        System.out.println("DELETE FROM pengguna");
+    }
+    public void hapus(int id){
+        System.out.println("DELETE FROM pengguna WHERE id=" + id);
+    }
+    public void hapus(String username) {
+        System.out.println("DELETE FROM pengguna WHERE username=" + username);
+    }
+
+    public void login(String tokenGoogle) {
+        System.out.println("Ini Login menggunakan Google");
+    }
+
 }
