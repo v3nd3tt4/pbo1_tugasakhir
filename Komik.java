@@ -7,4 +7,5 @@ public class Komik extends Buku {
 
     public void naikkanHarga() {
         System.out.println("naikkan harga komik");
+    }
 }
